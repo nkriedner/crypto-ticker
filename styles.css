@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5rem;
+  font-family: sans-serif;
+}
+
+.ticker-container {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 2.75rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5rem;
+  color: maroon;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+.green {
+  color: rgb(117, 192, 6);
+}
+
+.blue {
+  color: rgb(90, 90, 207);
+}
+
+.red {
+  color: rgb(197, 5, 5);
+}
