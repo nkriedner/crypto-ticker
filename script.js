@@ -4,7 +4,7 @@ const adaDisplay1 = document.getElementById("ada1");
 const xrpDisplay1 = document.getElementById("xrp1");
 const hbarDisplay1 = document.getElementById("hbar1");
 const linkDisplay1 = document.getElementById("link1");
-const adaDisplay3000 = document.getElementById("ada3000");
+const adaDisplay3057 = document.getElementById("ada3057");
 const xrpDisplay42 = document.getElementById("xrp42");
 const hbarDisplay1023 = document.getElementById("hbar1023");
 const linkDisplay6_79 = document.getElementById("link6-79");
@@ -13,7 +13,7 @@ const gesamt = document.getElementById("gesamt");
 // Function to update "Gesamt"
 function updateGesamt() {
   const result =
-    parseFloat(ada3000.textContent) +
+    parseFloat(ada3057.textContent) +
     parseFloat(xrp42.textContent) +
     parseFloat(hbarDisplay1023.textContent) +
     parseFloat(linkDisplay6_79.textContent);
@@ -30,7 +30,7 @@ function adaApiRequest() {
     const data = JSON.parse(this.response);
     ada1 = data.ticker.price;
     adaDisplay1.textContent = Math.floor(ada1 * 1 * 100) / 100;
-    adaDisplay3000.textContent = Math.floor(ada1 * 3000 * 100) / 100;
+    adaDisplay3057.textContent = Math.floor(ada1 * 3057 * 100) / 100;
     updateGesamt();
   };
 
